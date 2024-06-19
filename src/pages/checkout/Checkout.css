@@ -1,0 +1,116 @@
+/* Center the checkout div on the page */
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Styles for the header and subtotal message */
+.checkout h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.checkout p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    padding: 30px;
+}
+
+/* Container for first and last name inputs */
+.name-container,
+.city-state-zip-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Individual input styles */
+form input {
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #121619;
+    color: black;
+    margin-top: 10px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+form input.full-width {
+    width: 100%;
+}
+
+form textarea {
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #121619;
+    color: black;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input:focus,
+textarea:focus {
+    outline: none;
+}
+
+form label {
+    color: grey;
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* Style for input containers */
+.input-container {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container.full-width {
+    width: 100%;
+}
+
+form button {
+    margin-top: 40px;
+    width: 160px;
+    height: 50px;
+    border: none;
+    background-color: #121619;
+    color: whitesmoke;
+    font-size: 18px;
+    cursor: pointer;
+}
